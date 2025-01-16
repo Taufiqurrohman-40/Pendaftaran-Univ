@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pendaftaran</title>
+    <link rel="stylesheet" href="styless.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="Logo.png" alt="Logo">
+            <h1>Selamat datang di Universitas Absolute Solver</h1>
+            <button>Info PMB</button>
+            <button>ID | EN</button>
+        </div>
+        <div class="form-section">
+            <h2>Formulir Pendaftaran Mahasiswa Baru 2099</h2>
+            <p>* wajib diisi</p>
+            <form>
+                <label for="nik">NIK*</label>
+                <input type="text" id="nik" placeholder="Masukan NIK (No. KTP)" required>
+
+                <label for="nama">Nama*</label>
+                <input type="text" id="nama" placeholder="Masukkan nama lengkap" required>
+
+                <label for="alamat">Alamat*</label>
+                <input type="text" id="alamat" placeholder="Masukan alamat lengkap" required>
+
+                <label for="email">Email*</label>
+                <input type="email" id="email" placeholder="Masukkan email yang aktif" required>
+
+                <label for="wa">Whatsapp (WA)*</label>
+                <input type="text" id="wa" placeholder="Masukkan nomor HP/telepon aktif" required>
+
+                <label for="program">Jalur Masuk Universitas*</label>
+                <select id="program">
+                    <option>SNBT</option>
+                    <option>SNBP</option>
+                    <option>KIP-K</option>
+                    <option>Mandiri - SNBT</option>
+                    <option>Mandiri - SNBP</option>
+                </select>
+
+                <button type="submit">Daftar</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
